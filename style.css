@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  position: relative;
+}
+
+header {
+  align-items: center;
+  padding: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1833a0;
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+header .left-side {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+}
+header h3 {
+  font-size: 12px;
+  font-weight: lighter;
+}
+header .btn {
+  border: 1px white solid;
+  padding: 0.1rem 0.6rem;
+  border-radius: 1rem;
+  border-bottom: 2.5px white solid;
+}
+header .location {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+}
+header .bx-map {
+  font-size: 25px;
+  color: #ffb400;
+}
+header .btn-diff {
+  border: none;
+  background-color: #ffb400;
+  padding: 0.2rem 0.6rem;
+}
+
+@media (max-width: 360px) {
+  header {
+    padding: 0.8rem;
+    text-align: center;
+    background-color: #1833a0;
+  }
+  header .right-side {
+    margin: 0 auto;
+  }
+  header .locations {
+    display: none;
+  }
+  header .location {
+    display: none;
+  }
+}
+.introduction {
+  padding: 0.1rem 1rem;
+  height: 12vh;
+  display: flex;
+  position: sticky;
+  top: 0%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d4dbff;
+}
+.introduction .lap {
+  font-size: 25px;
+}
+.introduction .about:hover {
+  background-color: rgb(214, 213, 213);
+  padding: 0.3rem;
+}
+.introduction a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #1833a0;
+}
+.introduction img {
+  width: 6rem;
+  height: 6rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.search {
+  display: none;
+}
+.search .loop {
+  font-size: 25px;
+}
+.search .right-sided {
+  background-color: #1833a0;
+  color: #d4dbff;
+  border-radius: 50%;
+  padding: 0.2rem;
+}
+
+@media (max-width: 768px) {
+  .lap {
+    display: none;
+  }
+  .about {
+    display: none;
+  }
+  .introduction {
+    padding: 0.1rem 1rem;
+    height: 12vh;
+    display: flex;
+    position: sticky;
+    top: 0%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d4dbff;
+  }
+  .introduction .lap {
+    font-size: 25px;
+  }
+  .introduction .about:hover {
+    background-color: rgb(214, 213, 213);
+    padding: 0.3rem;
+  }
+  .introduction a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #1833a0;
+  }
+  .search {
+    display: block;
+  }
+}
+.find-out {
+  background: url(/images/totos-treasure-account.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 2.5rem 1.5rem;
+}
+.find-out .discription {
+  color: white;
+  width: 35%;
+}
+.find-out .discription p {
+  padding: 3rem 1rem;
+}
+.find-out .discription a {
+  text-decoration: none;
+  padding: 0.7rem 1rem;
+  border-radius: 0.6rem;
+  color: white;
+  background-color: #1833a0;
+}
+.find-out .saving {
+  border-right: 1px solid gray;
+}
+.find-out .saving:hover {
+  background-color: grey;
+}
+.find-out .icons {
+  background-color: wheat;
+  text-align: center;
+  padding: 2rem 5rem;
+  margin-top: 8rem;
+  color: #1833a0;
+  background-color: white;
+  display: flex;
+  gap: 0.5rem;
+}
+.find-out .icons a {
+  font-size: 14.5px;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .find-out {
+    background: url(/images/totos-treasure-account.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 2rem 1.5rem;
+  }
+  .find-out .discription {
+    color: white;
+    width: 55%;
+  }
+  .find-out .discription p {
+    padding: 2rem 1rem;
+  }
+  .find-out .discription a {
+    text-decoration: none;
+    padding: 0.7rem 1rem;
+    border-radius: 0.6rem;
+    color: white;
+    background-color: #1833a0;
+  }
+  .find-out .saving {
+    border-right: 1px solid gray;
+  }
+  .find-out .saving:hover {
+    background-color: grey;
+  }
+  .find-out .icons {
+    background-color: wheat;
+    text-align: center;
+    padding: 1rem 2rem;
+    margin-top: 5rem;
+    color: #1833a0;
+    background-color: white;
+    display: flex;
+    gap: 0.5rem;
+  }
+  .find-out .icons a {
+    font-size: 14.5px;
+    text-decoration: none;
+  }
+}
+@media (max-width: 360px) {
+  .find-out {
+    width: 100%;
+    background: url(/images/totos-treasure-account.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+    padding: 2.5rem 1rem;
+  }
+  .find-out .discription {
+    color: white;
+    width: 100%;
+  }
+  .find-out .discription p {
+    padding: 2rem 0.3rem;
+  }
+  .find-out .discription a {
+    text-decoration: none;
+    padding: 0.7rem 1rem;
+    border-radius: 0.6rem;
+    color: white;
+    background-color: #1833a0;
+  }
+  .find-out .saving {
+    border-right: 1px solid gray;
+  }
+  .find-out .saving:hover {
+    background-color: grey;
+  }
+  .find-out .icons {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */

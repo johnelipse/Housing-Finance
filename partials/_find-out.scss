@@ -1,0 +1,122 @@
+.find-out {
+  background: url(/images/totos-treasure-account.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  .discription {
+    color: $tertiary-color;
+    p {
+      padding: 3rem 1rem;
+    }
+    a {
+      text-decoration: none;
+      padding: 0.7rem 1rem;
+      border-radius: 0.6rem;
+      color: $tertiary-color;
+      background-color: $primary-color;
+    }
+    width: 35%;
+  }
+
+  padding: 2.5rem 1.5rem;
+  .saving {
+    border-right: 1px solid gray;
+    &:hover{
+        background-color: grey;
+      }
+  }
+  .icons {
+    background-color: wheat;
+    text-align: center;
+    a {
+      font-size: 14.5px;
+      text-decoration: none;
+     
+    }
+    padding: 2rem 5rem;
+    margin-top: 8rem;
+    color: $primary-color;
+    background-color: $tertiary-color;
+    display: flex;
+    gap: 0.5rem;
+  }
+}
+@media(max-width:768px){
+  .find-out {
+    background: url(/images/totos-treasure-account.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    .discription {
+      color: $tertiary-color;
+      p {
+        padding: 2rem 1rem;
+      }
+      a {
+        text-decoration: none;
+        padding: 0.7rem 1rem;
+        border-radius: 0.6rem;
+        color: $tertiary-color;
+        background-color: $primary-color;
+      }
+      width: 55%;
+    }
+  
+    padding: 2rem 1.5rem;
+    .saving {
+      border-right: 1px solid gray;
+      &:hover{
+          background-color: grey;
+        }
+    }
+    .icons {
+      background-color: wheat;
+      text-align: center;
+      a {
+        font-size: 14.5px;
+        text-decoration: none;
+       
+      }
+      padding: 1rem 2rem;
+      margin-top: 5rem;
+      color: $primary-color;
+      background-color: $tertiary-color;
+      display: flex;
+      gap: 0.5rem;
+    }
+  }
+}
+@media(max-width:360px){
+  .find-out {
+    width: 100%;
+    background: url(/images/totos-treasure-account.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+    .discription {
+      color: $tertiary-color;
+      p {
+        padding: 2rem 0.3rem;
+      }
+      a {
+        text-decoration: none;
+        padding: 0.7rem 1rem;
+        border-radius: 0.6rem;
+        color: $tertiary-color;
+        background-color: $primary-color;
+      }
+      width: 100%;
+    }
+  
+    padding: 2.5rem 1rem;
+    .saving {
+      border-right: 1px solid gray;
+      &:hover{
+          background-color: grey;
+        }
+    }
+    .icons {
+      display: none;
+   }  
+}
+}
