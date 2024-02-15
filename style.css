@@ -147,7 +147,7 @@ header .btn-diff {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
-  padding: 2.5rem 1.5rem;
+  padding: 2.5rem 2.5rem;
 }
 .find-out .discription {
   color: white;
@@ -258,5 +258,123 @@ header .btn-diff {
   }
   .find-out .icons {
     display: none;
+  }
+}
+.personal-banking {
+  background-color: #e5e9ff;
+  min-height: 100vh;
+  padding: 3rem;
+}
+.personal-banking span {
+  color: #ffb400;
+}
+.personal-banking .heading {
+  color: #1833a0;
+  font-size: 35px;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+}
+.personal-banking .banking {
+  padding-top: 2rem;
+  display: flex;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.personal-banking .personal {
+  width: 30%;
+  background-color: white;
+  display: flex;
+}
+.personal-banking .personal a {
+  text-decoration: none;
+}
+.personal-banking .personal .dis {
+  width: 50%;
+  padding: 0.5rem;
+  font-size: 15px;
+}
+.personal-banking .personal .dis p {
+  color: rgb(163, 159, 159);
+}
+.personal-banking .personal .dis h3 {
+  padding-bottom: 2rem;
+  color: #1833a0;
+}
+.personal-banking .personal img {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .personal-banking {
+    background-color: #e5e9ff;
+    min-height: 100vh;
+    padding: 3rem;
+  }
+  .personal-banking .banking {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+  }
+  .personal-banking .personal {
+    width: 97%;
+    height: 35vh;
+  }
+  .personal-banking .personal img {
+    -o-object-fit: fill;
+       object-fit: fill;
+    width: 50%;
+  }
+}
+@media (max-width: 360px) {
+  .personal-banking {
+    background-color: #e5e9ff;
+    min-height: 100vh;
+    padding: 1rem;
+  }
+  .personal-banking .heading {
+    color: #1833a0;
+    font-size: 30px;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+  }
+  .personal-banking .banking {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  .personal-banking .personal {
+    width: 100%;
+    background-color: white;
+    display: flex;
+  }
+  .personal-banking .personal a {
+    text-decoration: none;
+  }
+  .personal-banking .personal .dis {
+    width: 50%;
+    padding: 0.5rem;
+    font-size: 15px;
+  }
+  .personal-banking .personal .dis p {
+    color: rgb(163, 159, 159);
+  }
+  .personal-banking .personal .dis h3 {
+    font-size: 13px;
+    padding-bottom: 1rem;
+    color: #1833a0;
+  }
+  .personal-banking .personal img {
+    width: 50%;
   }
 }/*# sourceMappingURL=style.css.map */

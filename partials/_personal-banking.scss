@@ -1,0 +1,117 @@
+.personal-banking {
+  span {
+    color: #ffb400;
+  }
+  .heading {
+    color: $primary-color;
+    font-size: 35px;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+  }
+  background-color: #e5e9ff;
+  min-height: 100vh;
+  .banking {
+    padding-top: 2rem;
+    display: flex;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  padding: 3rem;
+  .personal {
+    width: 30%;
+    a {
+      text-decoration: none;
+    }
+    .dis {
+      width: 50%;
+      padding: 0.5rem;
+      font-size: 15px;
+      p {
+        color: rgb(163, 159, 159);
+      }
+      h3 {
+        padding-bottom: 2rem;
+        color: $primary-color;
+      }
+    }
+    img {
+      width: 50%;
+    }
+    background-color: white;
+    display: flex;
+  }
+}
+@media (max-width: 768px) {
+  .personal-banking {
+    background-color: #e5e9ff;
+    min-height: 100vh;
+    .banking {
+      padding-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 2rem;
+      justify-content: center;
+    }
+    padding: 3rem;
+    .personal {
+      width: 97%;
+      height: 35vh;
+      img {
+        object-fit: fill;
+        width: 50%;
+      }
+      }
+  }
+}
+@media(max-width:360px){
+  .personal-banking {
+   
+    .heading {
+      color: $primary-color;
+      font-size: 30px;
+      padding-bottom: 2rem;
+      padding-left: 1rem;
+    }
+    background-color: #e5e9ff;
+    min-height: 100vh;
+    .banking {
+      padding-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+    padding: 1rem;
+    .personal {
+      width: 100%;
+      a {
+        text-decoration: none;
+      }
+      .dis {
+        width: 50%;
+        padding: 0.5rem;
+        font-size: 15px;
+        p {
+          color: rgb(163, 159, 159);
+        }
+        h3 {
+          font-size: 13px;
+          padding-bottom: 1rem;
+          color: $primary-color;
+        }
+      }
+      img {
+        width: 50%;
+      }
+      background-color: white;
+      display: flex;
+    }
+  } 
+}
