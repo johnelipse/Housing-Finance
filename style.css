@@ -377,4 +377,217 @@ header .btn-diff {
   .personal-banking .personal img {
     width: 50%;
   }
+}
+.bussiness-banking {
+  background-color: #fff9d9;
+  padding: 5rem 2rem;
+}
+.bussiness-banking .section-heading {
+  color: #1833a0;
+  padding: 4rem 1rem;
+}
+.bussiness-banking .section-heading span {
+  color: #ffb400;
+}
+.bussiness-banking .section-heading h3 {
+  font-size: 35px;
+}
+.bussiness-banking .banking-cards {
+  justify-content: center;
+  display: flex;
+  gap: 2rem;
+}
+.bussiness-banking .banking-cards .personal {
+  width: 30%;
+  background-color: white;
+  display: flex;
+}
+.bussiness-banking .banking-cards .personal a {
+  text-decoration: none;
+}
+.bussiness-banking .banking-cards .personal .dis {
+  width: 50%;
+  padding: 0.5rem;
+  font-size: 15px;
+}
+.bussiness-banking .banking-cards .personal .dis p {
+  color: rgb(163, 159, 159);
+}
+.bussiness-banking .banking-cards .personal .dis h3 {
+  padding-bottom: 2rem;
+  color: #1833a0;
+}
+.bussiness-banking .banking-cards .personal img {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .bussiness-banking {
+    padding: 5rem 1rem;
+    min-height: 100vh;
+  }
+  .bussiness-banking .section-heading {
+    color: #1833a0;
+    padding: 4rem 1rem;
+  }
+  .bussiness-banking .banking-cards {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    gap: 2rem;
+  }
+  .bussiness-banking .banking-cards .personal {
+    width: 87%;
+    height: 40vh;
+    background-color: white;
+    display: flex;
+  }
+  .bussiness-banking .banking-cards .personal a {
+    text-decoration: none;
+  }
+  .bussiness-banking .banking-cards .personal .dis {
+    width: 50%;
+    padding: 0.5rem;
+    font-size: 15px;
+  }
+  .bussiness-banking .banking-cards .personal .dis p {
+    color: rgb(163, 159, 159);
+  }
+  .bussiness-banking .banking-cards .personal .dis h3 {
+    padding-bottom: 2rem;
+    color: #1833a0;
+  }
+  .bussiness-banking .banking-cards .personal img {
+    width: 50%;
+  }
+}
+@media (max-width: 360px) {
+  .bussiness-banking {
+    background-color: #fff9d9;
+    padding: 3rem 2rem;
+  }
+  .bussiness-banking .section-heading {
+    color: #1833a0;
+    padding: 2rem 1rem;
+  }
+  .bussiness-banking .section-heading h3 {
+    padding-left: 0;
+    font-size: 30px;
+  }
+  .bussiness-banking .banking-cards {
+    justify-content: center;
+    display: flex;
+    gap: 2rem;
+  }
+  .bussiness-banking .banking-cards .personal {
+    height: 35vh;
+    width: 99%;
+    background-color: white;
+    display: flex;
+  }
+  .bussiness-banking .banking-cards .personal a {
+    text-decoration: none;
+  }
+  .bussiness-banking .banking-cards .personal .dis {
+    width: 50%;
+    padding: 0.5rem;
+    font-size: 15px;
+  }
+  .bussiness-banking .banking-cards .personal .dis p {
+    color: rgb(163, 159, 159);
+  }
+  .bussiness-banking .banking-cards .personal .dis h3 {
+    padding-bottom: 1rem;
+    color: #1833a0;
+  }
+  .bussiness-banking .banking-cards .personal img {
+    width: 50%;
+  }
+}
+.master-card {
+  min-height: 100vh;
+  align-items: center;
+  padding: 0rem 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.master-card .explanation h3 {
+  padding: 1rem 0rem;
+  color: #1833a0;
+}
+.master-card .explanation .list {
+  padding-top: 2rem;
+}
+.master-card .explanation .bx {
+  background-color: green;
+  color: white;
+  border-radius: 50%;
+}
+.master-card .explanation .btns {
+  padding: 2rem 0rem;
+  display: flex;
+  gap: 2rem;
+}
+.master-card .explanation .btns a {
+  text-decoration: none;
+  border-radius: 0.6rem;
+  color: white;
+  background-color: #1833a0;
+  padding: 0.5rem 2rem;
+}
+
+@media (max-width: 768px) {
+  .master-card {
+    min-height: 100vh;
+    align-items: center;
+    padding: 3rem 4rem;
+    gap: 4rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .master-card .explanation h3 {
+    padding: 1rem 0rem;
+    color: #1833a0;
+  }
+  .master-card .explanation .list {
+    padding-top: 2rem;
+  }
+  .master-card .explanation .bx {
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+  }
+  .master-card .explanation .btns {
+    padding: 2rem 0rem;
+    display: flex;
+    gap: 2rem;
+  }
+  .master-card .explanation .btns a {
+    text-decoration: none;
+    border-radius: 0.6rem;
+    color: white;
+    background-color: #1833a0;
+    padding: 0.5rem 2rem;
+  }
+}
+@media (max-width: 360px) {
+  .master-card .image-master-card {
+    display: none;
+  }
+  .master-card .explanation .btns {
+    padding-top: 2rem;
+    padding-right: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .master-card .explanation .btns a {
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.6rem;
+    color: white;
+    background-color: #1833a0;
+    padding: 0.5rem 0.5rem;
+  }
 }/*# sourceMappingURL=style.css.map */

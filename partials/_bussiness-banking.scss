@@ -1,0 +1,126 @@
+.bussiness-banking {
+  background-color: #fff9d9;
+  padding: 5rem 2rem;
+  .section-heading {
+    span {
+      color: #ffb400;
+    }
+    h3 {
+      font-size: 35px;
+    }
+    color: $primary-color;
+    padding: 4rem 1rem;
+  }
+  .banking-cards {
+    justify-content: center;
+    display: flex;
+    gap: 2rem;
+    .personal {
+      width: 30%;
+      a {
+        text-decoration: none;
+      }
+      .dis {
+        width: 50%;
+        padding: 0.5rem;
+        font-size: 15px;
+        p {
+          color: rgb(163, 159, 159);
+        }
+        h3 {
+          padding-bottom: 2rem;
+          color: $primary-color;
+        }
+      }
+      img {
+        width: 50%;
+      }
+      background-color: white;
+      display: flex;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .bussiness-banking {
+    padding: 5rem 1rem;
+    min-height: 100vh;
+    .section-heading {
+      color: $primary-color;
+      padding: 4rem 1rem;
+    }
+    .banking-cards {
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      display: flex;
+      gap: 2rem;
+      .personal {
+        width: 87%;
+        height: 40vh;
+        a {
+          text-decoration: none;
+        }
+        .dis {
+          width: 50%;
+          padding: 0.5rem;
+          font-size: 15px;
+          p {
+            color: rgb(163, 159, 159);
+          }
+          h3 {
+            padding-bottom: 2rem;
+            color: $primary-color;
+          }
+        }
+        img {
+          width: 50%;
+        }
+        background-color: white;
+        display: flex;
+      }
+    }
+  }
+}
+@media (max-width: 360px) {
+  .bussiness-banking {
+    background-color: #fff9d9;
+    padding: 3rem 2rem;
+    .section-heading {
+      h3 {
+        padding-left: 0;
+        font-size: 30px;
+      }
+      color: $primary-color;
+      padding: 2rem 1rem;
+    }
+    .banking-cards {
+      justify-content: center;
+      display: flex;
+      gap: 2rem;
+      .personal {
+        height: 35vh;
+        width: 99%;
+        a {
+          text-decoration: none;
+        }
+        .dis {
+          width: 50%;
+          padding: 0.5rem;
+          font-size: 15px;
+          p {
+            color: rgb(163, 159, 159);
+          }
+          h3 {
+            padding-bottom: 1rem;
+            color: $primary-color;
+          }
+        }
+        img {
+          width: 50%;
+        }
+        background-color: white;
+        display: flex;
+      }
+    }
+  }
+}
