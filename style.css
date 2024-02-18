@@ -590,4 +590,79 @@ header .btn-diff {
     background-color: #1833a0;
     padding: 0.5rem 0.5rem;
   }
+}
+.housing-finance-bank {
+  padding: 4rem;
+  min-height: 100vh;
+  background-color: #d4dbff;
+}
+.housing-finance-bank p {
+  color: #a7afbd;
+}
+.housing-finance-bank .section-title {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.housing-finance-bank .section-title h3 {
+  padding-bottom: 0.5rem;
+  color: #1833a0;
+  font-size: 2.3rem;
+}
+.housing-finance-bank .section-title span {
+  color: #ffb400;
+}
+.housing-finance-bank .objectives {
+  justify-content: center;
+  display: flex;
+  gap: 1rem;
+}
+.housing-finance-bank .objectives h3 {
+  color: #1833a0;
+  padding-bottom: 0.5rem;
+}
+.housing-finance-bank .objectives .execellence {
+  width: 35%;
+  background-color: white;
+  padding: 2.5rem;
+}
+.housing-finance-bank .objectives .execellence .image {
+  padding-bottom: 1rem;
+}
+.housing-finance-bank .objectives .images {
+  padding-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .housing-finance-bank .objectives {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .housing-finance-bank .objectives .execellence {
+    width: 95%;
+    padding: 2.5rem;
+  }
+}
+@media (max-width: 360px) {
+  .housing-finance-bank {
+    padding: 2rem;
+  }
+  .housing-finance-bank .section-title h3 {
+    font-size: 1.5rem;
+  }
+  .housing-finance-bank .section-title p {
+    font-size: 0.8rem;
+  }
+  .housing-finance-bank .objectives {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+  }
+  .housing-finance-bank .objectives .execellence {
+    width: 99%;
+    padding: 2.5rem;
+  }
 }/*# sourceMappingURL=style.css.map */
