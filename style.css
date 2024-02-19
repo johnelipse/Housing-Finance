@@ -334,7 +334,7 @@ header .btn-diff {
   .personal-banking .personal img {
     -o-object-fit: fill;
        object-fit: fill;
-    width: 50%;
+    width: 40%;
   }
 }
 @media (max-width: 360px) {
