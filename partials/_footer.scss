@@ -95,41 +95,22 @@ font-size: 0.8rem;
 @media(max-width:360px){
   .footer {
    width: 100%;
-    background-color: $primary-color;
-  h3 {
-    color: $tertiary-color;
-  }
-  a {
-    font-size: 0.9rem;
-    color: $tertiary-color;
-    text-decoration: none;
-    font-weight: lighter;
-  }
   .listings {
     padding: 2rem 5rem;
     display: flex;
     justify-content: space-between;
     .icons {
-      padding-top: 2rem;
-    .bx{
-    color: $tertiary-color;
-    font-size: 1.5rem;
-    }
+      padding-top: 1rem;
+    
     }
   }
  
   .contacts {
     padding: 2.5rem 2rem;
-    color: $tertiary-color;
-    display: flex;
+      display: flex;
     align-items: center;
   flex-direction: column;
-    border-bottom: white solid 1px;
-    .pacture {
-      img {
-        width: 8rem;
-      }
-    }
+        
     .contact {
       font-size: 0.8rem;
       display: flex;
@@ -137,12 +118,6 @@ font-size: 0.8rem;
       gap: 1rem;
     }
   }
-.conclusion{
-padding: 2rem;
-p{
-color: $tertiary-color;
-font-size: 0.8rem;
-}
-}
+
 } 
 }

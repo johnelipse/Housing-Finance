@@ -20,6 +20,7 @@
 
   padding: 2.5rem 2.5rem;
   .saving {
+    padding:0rem 1rem;
     border-right: 1px solid gray;
     &:hover{
         background-color: grey;
@@ -33,7 +34,7 @@
       text-decoration: none;
      
     }
-    padding: 2rem 5rem;
+    padding: 1rem 4rem;
     margin-top: 8rem;
     color: $primary-color;
     background-color: $tertiary-color;
@@ -61,7 +62,9 @@
       }
       width: 55%;
     }
-  
+  .save{
+    display: none;
+  }
     padding: 2rem 1.5rem;
     .saving {
       border-right: 1px solid gray;
