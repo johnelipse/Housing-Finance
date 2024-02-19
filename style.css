@@ -762,4 +762,87 @@ header .btn-diff {
   .media-updates .updates .partners .similar img {
     width: 100%;
   }
+}
+.get-app {
+  background-color: #fff9d9;
+  min-height: 100vh;
+  align-items: center;
+  padding: 3rem;
+  display: flex;
+  gap: 10rem;
+}
+.get-app .description h3 {
+  color: #1833a0;
+  font-size: 2.5rem;
+  padding-bottom: 1.5rem;
+}
+.get-app .description p {
+  color: #9699a1;
+  font-size: 1rem;
+}
+.get-app .image {
+  width: 30rem;
+  height: 30rem;
+}
+.get-app .btns {
+  padding-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .get-app {
+    background-color: #fff9d9;
+    min-height: 100vh;
+    align-items: center;
+    padding: 3rem;
+    display: flex;
+    gap: 10rem;
+  }
+  .get-app .description h3 {
+    color: #1833a0;
+    font-size: 2.5rem;
+    padding-bottom: 1.5rem;
+  }
+  .get-app .description p {
+    color: #9699a1;
+    font-size: 1rem;
+  }
+  .get-app .image {
+    display: none;
+  }
+  .get-app .btns {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+  .get-app .btns img {
+    width: 9rem;
+    height: 2.5rem;
+  }
+}
+@media (max-width: 360px) {
+  .get-app {
+    align-items: center;
+    padding: 1rem;
+    display: flex;
+    gap: 10rem;
+  }
+  .get-app .description h3 {
+    color: #1833a0;
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+  }
+  .get-app .image {
+    display: none;
+  }
+  .get-app .btns {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+  .get-app .btns img {
+    width: 9rem;
+    height: 2.5rem;
+  }
 }/*# sourceMappingURL=style.css.map */
