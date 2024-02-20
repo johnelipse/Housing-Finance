@@ -232,6 +232,39 @@ header .btn-diff {
     text-decoration: none;
   }
 }
+@media (max-width: 484px) {
+  .find-out {
+    background: url(/images/totos-treasure-account.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 2.5rem 2.5rem;
+  }
+  .find-out .discription {
+    color: white;
+    width: 70%;
+  }
+  .find-out .discription p {
+    padding: 2rem 1rem;
+  }
+  .find-out .discription a {
+    text-decoration: none;
+    padding: 0.7rem 1rem;
+    border-radius: 0.6rem;
+    color: white;
+    background-color: #1833a0;
+  }
+  .find-out .saving {
+    padding: 0rem 1rem;
+    border-right: 1px solid gray;
+  }
+  .find-out .saving:hover {
+    background-color: grey;
+  }
+  .find-out .icons {
+    display: none;
+  }
+}
 @media (max-width: 360px) {
   .find-out {
     width: 100%;
@@ -575,6 +608,42 @@ header .btn-diff {
     color: white;
     background-color: #1833a0;
     padding: 0.5rem 2rem;
+  }
+}
+@media (max-width: 484px) {
+  .master-card {
+    min-height: 100vh;
+    align-items: center;
+    padding: 0rem 4rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .master-card .explanation h3 {
+    padding: 1rem 0rem;
+    color: #1833a0;
+  }
+  .master-card .explanation .list {
+    padding-top: 2rem;
+  }
+  .master-card .explanation .bx {
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+  }
+  .master-card .explanation .btns {
+    padding: 2rem 0rem;
+    display: flex;
+    gap: 2rem;
+  }
+  .master-card .explanation .btns a {
+    text-decoration: none;
+    border-radius: 0.6rem;
+    color: white;
+    background-color: #1833a0;
+    padding: 0.5rem 2rem;
+  }
+  .master-card .image-master-card {
+    display: none;
   }
 }
 @media (max-width: 360px) {
@@ -938,6 +1007,62 @@ header .btn-diff {
   .footer .conclusion {
     padding: 2rem;
     text-align: center;
+  }
+}
+@media (max-width: 484px) {
+  .footer {
+    background-color: #1833a0;
+  }
+  .footer h3 {
+    color: white;
+  }
+  .footer a {
+    font-size: 0.9rem;
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+  }
+  .footer .listings {
+    padding: 2rem 5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer .listings .icons {
+    padding-top: 2rem;
+  }
+  .footer .listings .icons .bx {
+    color: white;
+    font-size: 1.5rem;
+  }
+  .footer hr {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: white;
+  }
+  .footer .contacts {
+    padding: 2.5rem 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: white solid 1px;
+  }
+  .footer .contacts .pacture img {
+    width: 8rem;
+  }
+  .footer .contacts .contact {
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .footer .conclusion {
+    padding: 2rem;
+  }
+  .footer .conclusion p {
+    color: white;
+    font-size: 0.8rem;
   }
 }
 @media (max-width: 360px) {

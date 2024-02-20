@@ -92,6 +92,64 @@ font-size: 0.8rem;
     }
     }  
 }
+@media(max-width:484px){
+  .footer {
+    background-color: $primary-color;
+  h3 {
+    color: $tertiary-color;
+  }
+  a {
+    font-size: 0.9rem;
+    color: $tertiary-color;
+    text-decoration: none;
+    font-weight: lighter;
+  }
+  .listings {
+    padding: 2rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    .icons {
+      padding-top: 2rem;
+    .bx{
+    color: $tertiary-color;
+    font-size: 1.5rem;
+    }
+    }
+  }
+  hr {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: $tertiary-color;
+  }
+  .contacts {
+    padding: 2.5rem 2rem;
+    color: $tertiary-color;
+    display: flex;
+    align-items: center;
+   flex-direction: column;
+    border-bottom: white solid 1px;
+    .pacture {
+      img {
+        width: 8rem;
+      }
+    }
+    .contact {
+      font-size: 0.8rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+.conclusion{
+padding: 2rem;
+p{
+color: $tertiary-color;
+font-size: 0.8rem;
+}
+}
+}  
+}
 @media(max-width:360px){
   .footer {
    width: 100%;
