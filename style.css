@@ -487,7 +487,7 @@ header .btn-diff {
     gap: 2rem;
   }
   .bussiness-banking .banking-cards .personal {
-    height: 35vh;
+    height: 10%;
     width: 99%;
     background-color: white;
     display: flex;
@@ -504,7 +504,7 @@ header .btn-diff {
     color: rgb(163, 159, 159);
   }
   .bussiness-banking .banking-cards .personal .dis h3 {
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
     color: #1833a0;
   }
   .bussiness-banking .banking-cards .personal img {

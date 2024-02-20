@@ -98,7 +98,7 @@
       display: flex;
       gap: 2rem;
       .personal {
-        height: 35vh;
+        height: 10%;
         width: 99%;
         a {
           text-decoration: none;
@@ -111,7 +111,7 @@
             color: rgb(163, 159, 159);
           }
           h3 {
-            padding-bottom: 1rem;
+            padding-bottom: 0.5rem;
             color: $primary-color;
           }
         }
