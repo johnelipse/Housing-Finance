@@ -110,7 +110,7 @@ header .btn-diff {
   padding: 0.2rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 788px) {
   .lap {
     display: none;
   }
@@ -186,7 +186,7 @@ header .btn-diff {
   text-decoration: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 788px) {
   .find-out {
     background: url(/images/totos-treasure-account.jpg);
     background-size: cover;
@@ -344,7 +344,7 @@ header .btn-diff {
   width: 50%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 788px) {
   .personal-banking {
     background-color: #e5e9ff;
     min-height: 100vh;
@@ -460,7 +460,7 @@ header .btn-diff {
   width: 50%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 788px) {
   .bussiness-banking {
     padding: 5rem 1rem;
     min-height: 100vh;
@@ -576,7 +576,7 @@ header .btn-diff {
   padding: 0.5rem 2rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 788px) {
   .master-card {
     min-height: 100vh;
     align-items: center;
@@ -707,7 +707,7 @@ header .btn-diff {
   padding-bottom: 1.5rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 788px) {
   .housing-finance-bank .objectives {
     justify-content: center;
     display: flex;
@@ -799,7 +799,7 @@ header .btn-diff {
   transition: 0.2s;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 788px) {
   .media-updates {
     background-color: #e5e9ff;
     min-height: 100vh;
@@ -862,7 +862,7 @@ header .btn-diff {
   padding-top: 2rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 788px) {
   .get-app {
     background-color: #fff9d9;
     min-height: 100vh;
@@ -974,7 +974,7 @@ header .btn-diff {
   font-size: 0.8rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 788px) {
   .footer .pacture img {
     width: 4rem;
   }
