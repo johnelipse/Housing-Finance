@@ -1009,6 +1009,62 @@ header .btn-diff {
     text-align: center;
   }
 }
+@media (max-width: 630px) {
+  .footer {
+    background-color: #1833a0;
+  }
+  .footer h3 {
+    color: white;
+  }
+  .footer a {
+    font-size: 0.9rem;
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+  }
+  .footer .listings {
+    padding: 2rem 5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer .listings .icons {
+    padding-top: 2rem;
+  }
+  .footer .listings .icons .bx {
+    color: white;
+    font-size: 1.5rem;
+  }
+  .footer hr {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: white;
+  }
+  .footer .contacts {
+    padding: 2.5rem 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: white solid 1px;
+  }
+  .footer .contacts .pacture img {
+    width: 8rem;
+  }
+  .footer .contacts .contact {
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .footer .conclusion {
+    padding: 2rem;
+  }
+  .footer .conclusion p {
+    color: white;
+    font-size: 0.8rem;
+  }
+}
 @media (max-width: 484px) {
   .footer {
     background-color: #1833a0;
