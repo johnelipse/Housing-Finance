@@ -801,19 +801,35 @@ header .btn-diff {
 
 @media (max-width: 788px) {
   .media-updates {
+    width: 100%;
     background-color: #e5e9ff;
     min-height: 100vh;
-    padding: 1rem;
+    padding: 0rem;
   }
   .media-updates .media {
     font-size: 1.5rem;
+    padding: 2rem;
   }
   .media-updates .celebrations {
-    background-color: white;
     width: 100%;
+  }
+  .media-updates .celebrations p {
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+  }
+  .media-updates .celebrations h3 {
+    padding-top: 2rem;
+    padding-left: 1.5rem;
   }
   .media-updates .celebrations img {
     border-radius: 1rem;
+    width: 100%;
+  }
+  .media-updates .dive {
+    padding: 1rem 0rem;
+  }
+  .media-updates .div {
+    padding: 0.1rem 1rem;
   }
   .media-updates .updates {
     padding-top: 2rem;
@@ -835,6 +851,8 @@ header .btn-diff {
   }
   .media-updates .updates .partners .similar img {
     width: 100%;
+    padding-right: 0rem;
+    padding-left: 0rem;
   }
 }
 .get-app {
